@@ -33,24 +33,48 @@ body{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
     gap:5px;
-    margin-left: 50px;
+    margin-left: 80px;
+    
     
 }
 
 .imagem img{
     width:100%;
-    height:150px;
+    height:160px;
     overflow: hidden;
 }
 .cartao{
     background-color: aliceblue;
-    width:350px;
+    width:300px;
     height:250px;
     overflow: hidden;
     margin:5px;
     transition: 0.3s;
     text-align: center;
+    margin-bottom: 40px;
     border-radius: 30px;
+   
+}
+.cartao h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+.cartao a{
+    padding:5px;
+    display: block;
+    margin:0 auto 20px;
+    text-align: center;
+    background-color: rgb(20, 20, 73);
+    width:150px;
+    height:30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+.cartao a{
+    transition: 0.3s;
+
 }
 .cartao:hover{
     transform:scale(1.03);
