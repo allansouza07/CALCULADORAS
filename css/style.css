@@ -80,3 +80,33 @@ body{
     transform:scale(1.03);
     box-shadow: 0 9px 20px rgba(0,0,0,0.2);
 }
+
+@media (max-width: 480px) {
+ 
+    #mensagem_main{
+        font-size: 24px;
+    }
+ 
+    #mensagem_main2{
+        font-size: 15px;
+    }
+ 
+    #logomain{
+        width: 180px;
+    }
+ 
+    #fundo_neutro{
+        height: 380px;
+    }
+ 
+    .unha img{
+        width: 150px;
+        height: 200px;
+    }
+ 
+    #fundo-rosa,
+    #imagem-quem-somos img{
+        width: 220px;
+        height: 220px;
+    }
+}
