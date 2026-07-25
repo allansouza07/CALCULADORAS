@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Básica</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/resumo.css">
+    <link rel="shortcut icon" href="../img/logo_png.png" type="image/png"> 
 </head>
 <body>
 
     <section class="container">
 
         <header class="hero">
+            <a href="../index.html"><img src="../img/voltar_botao.png" alt="botao" id="voltar"></a>
+
             <h1>Calculadora Básica</h1>
             <p>
                 A calculadora básica é uma ferramenta desenvolvida para realizar
@@ -42,16 +45,6 @@
                 </div>
 
                 <div class="item">
-                    <h3>📈 Cálculos Complexos</h3>
-                    <p>Resolver porcentagens, potências, raízes e outras operações.</p>
-                </div>
-
-                <div class="item">
-                    <h3>💰 Controle Financeiro</h3>
-                    <p>Calcular descontos, juros, parcelas e investimentos.</p>
-                </div>
-
-                <div class="item">
                     <h3>🎓 Estudos</h3>
                     <p>Auxiliar estudantes na resolução e conferência de exercícios.</p>
                 </div>
@@ -80,122 +73,9 @@
                 <li>Efetuar operações matemáticas rapidamente.</li>
             </ul>
         </section>
-
-        <section class="card destaque">
-            <h2>Resumo</h2>
-
-            <p>
-                A calculadora básica automatiza cálculos matemáticos,
-                tornando-os mais rápidos, precisos e acessíveis para qualquer
-                pessoa. Seja para estudos, trabalho ou tarefas do cotidiano,
-                ela é uma ferramenta indispensável.
-            </p>
-        </section>
+        <div id="botao_">
+            <a href="calculadora_numerica.html"  id="botao"><p>ACESSE A CALCULADORA</p></a>
+        </div>
+        
 
     </section>
-
-    <style>
-      *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#f4f7fb;
-    color:#333;
-    line-height:1.7;
-}
-
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:50px auto;
-}
-
-.hero{
-    text-align:center;
-    margin-bottom:40px;
-}
-
-.hero h1{
-    font-size:3rem;
-    color:#2563eb;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:800px;
-    margin:auto;
-    font-size:1.1rem;
-}
-
-.card{
-    background:#fff;
-    padding:30px;
-    border-radius:15px;
-    margin-bottom:30px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-}
-
-.card h2{
-    color:#2563eb;
-    margin-bottom:20px;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-}
-
-.item{
-    background:#eef4ff;
-    padding:20px;
-    border-radius:12px;
-    transition:.3s;
-}
-
-.item:hover{
-    transform:translateY(-5px);
-    box-shadow:0 5px 15px rgba(37,99,235,.2);
-}
-
-.item h3{
-    color:#1d4ed8;
-    margin-bottom:10px;
-}
-
-ul{
-    padding-left:20px;
-}
-
-ul li{
-    margin-bottom:10px;
-}
-
-.destaque{
-    background:linear-gradient(135deg,#2563eb,#1d4ed8);
-    color:#fff;
-}
-
-.destaque h2{
-    color:#fff;
-}
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:2.2rem;
-}
-
-.card{
-    padding:20px;
-}
-
-}
-    </style>
-
-</body>
-</html>
