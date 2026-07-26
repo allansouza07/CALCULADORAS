@@ -10,7 +10,7 @@ body{
     position: relative;
     display: flex;
     justify-content: left;
-    top:-100px;
+    top:00px;
     left:50px;
 }
 #logo img{
@@ -19,12 +19,13 @@ body{
 }
 #titulo{
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: white;
 }
 #titulo2{
     font-size: 30px;
     margin-top: 20px;
+    margin-bottom: 100px;
     color: white;
 }
 
@@ -80,33 +81,72 @@ body{
     transform:scale(1.03);
     box-shadow: 0 9px 20px rgba(0,0,0,0.2);
 }
-
-@media (max-width: 480px) {
- 
-    #mensagem_main{
-        font-size: 24px;
+footer{
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        background-color: blue;
     }
+
+@media (max-width: 768px) {
  
-    #mensagem_main2{
+    *{
+        margin:0;
+    padding:0
+    }
+    
+    #logo{
+        position: relative;
+        width:20px;
+        height:20px;
+        left:120px;
+        top:00px;
+        
+    }
+    header{
+        width:340px;
+        
+    }
+    main{
+        width:340px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        background-color: rgb(54, 54, 110);
+        width:340px;
+        height:100px;
+        margin-top: 100px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    #titulo{
+        position: relative;
+        top:80px;
+        font-size: 15px;
+        margin-bottom: 100px;
+        
+    }
+    #titulo2{
+        position: relative;
+        font-size: 20px;
+        
+    }
+    .cartao{
+        height: 250px;
+        width:250px;
+        position: relative;
+        left:-40px;
+    }
+    .cartao h3{
+        font-size:15px;
+    }
+    .cartao a{
         font-size: 15px;
     }
- 
-    #logomain{
-        width: 180px;
-    }
- 
-    #fundo_neutro{
-        height: 380px;
-    }
- 
-    .unha img{
-        width: 150px;
-        height: 200px;
-    }
- 
-    #fundo-rosa,
-    #imagem-quem-somos img{
-        width: 220px;
-        height: 220px;
-    }
+
 }
